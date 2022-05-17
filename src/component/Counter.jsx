@@ -8,9 +8,9 @@ let Red = {
     color :"red"
   }
 
-export const Counter = () => {
+export const Counter = (props) => {
 
-    const [count, setCount] = React.useState(0)
+    const [count, setCount] = React.useState(props.val)
 
     return (
         <div className={styles.App}>
