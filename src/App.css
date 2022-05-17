@@ -1,0 +1,14 @@
+.App {
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+.App h1{
+  font-size: 40px;
+}
+.App button{
+  background-color: black;
+  color: #fff;
+  margin: 20px;
+  padding:10px 20px;
+  font-size: 15px;
+}
